@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes with SVG and CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <svg width="960" height="500">
+        <g transform="scale(1.5)">
+         <circle cx="50" cy="50" r="40"></circle>
+         <rect width="50" height="50" x="100" y="25"></rect>
+         <circle cx="50" cy="150" r="40" fill="blue"></circle>
+         <rect width="50" height="50" x="100" y="125" fill="mistyrose"></rect>
+   
+     <g transform="translate(0, 200)" fill="mistyrose" stroke="black"> 
+            <circle  r="40" cx="50" cy="50" stroke-width="5" ></circle>
+            <rect width="50" height="50" x="100" y="25"></rect>
+        </g>
+       <line x1="200" y1="20" x2="400" y2="220" stroke="black" ></line>
+  
+       <g class="lines">
+           <path d="M400 220 L600 120  L500 100 L200 20" fill="none"></path>
+       </g>
+    </g>
+    </svg>
+
+</body>
+
+</html>
